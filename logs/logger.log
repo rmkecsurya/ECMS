@@ -1,0 +1,137 @@
+2023-04-07 07:58:05,396 - ELMS Logger - INFO - *******Test Login Page Testcase Started*******
+2023-04-07 07:58:07,272 - ELMS Logger - INFO - Navigated to LoginPage URL
+2023-04-07 07:58:11,804 - ELMS Logger - INFO - SuccessFully Validatd the LoginPage
+2023-04-07 07:58:11,840 - ELMS Logger - INFO - SuccessFully Signed In
+2023-04-07 07:58:11,842 - ELMS Logger - INFO - *******Test LoginPage Ended*******
+2023-04-07 07:58:11,854 - ELMS Logger - INFO - *******Add New User TestCase Started*******
+2023-04-07 07:58:11,855 - ELMS Logger - INFO - Validating Add New User Page started
+2023-04-07 07:58:12,792 - ELMS Logger - INFO - Successfully navigated to the Add new user page page
+2023-04-07 07:58:12,793 - ELMS Logger - INFO - Adding New User Creation Started
+2023-04-07 07:58:12,813 - ELMS Logger - INFO - Successfully logged into add new user page
+2023-04-07 07:58:14,656 - ELMS Logger - INFO - Entered Display is not correct
+2023-04-07 07:58:14,657 - ELMS Logger - INFO - New UserPage Validation is not successful
+2023-04-07 07:58:14,658 - ELMS Logger - INFO - Add new User Testcase Failed
+2023-04-07 07:58:15,150 - ELMS Logger - INFO - *******Searching for the user TestCase Started*******
+2023-04-07 07:58:15,150 - ELMS Logger - INFO - Searching for the user Started
+2023-04-07 07:58:16,833 - ELMS Logger - INFO - Navigated to the User search page
+2023-04-07 07:58:23,749 - ELMS Logger - INFO - User Not Found
+2023-04-07 07:58:23,749 - ELMS Logger - INFO - Search Testcase Failed
+2023-04-07 07:58:23,801 - ELMS Logger - INFO - *******Editing user TestCase Started*******
+2023-04-07 07:58:23,801 - ELMS Logger - INFO - Editing the User Page Started
+2023-04-07 07:58:24,881 - ELMS Logger - INFO - Navigated to the User URL Page
+2023-04-07 07:58:24,956 - ELMS Logger - INFO - MusersUser found and the started editing the user
+2023-04-07 07:58:42,040 - ELMS Logger - INFO - Exception occurred in validating the edit user page
+2023-04-07 07:58:42,040 - ELMS Logger - INFO - Message: invalid element state
+  (Session info: chrome=111.0.5563.147)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00D2DCE3]
+	(No symbol) [0x00CC39D1]
+	(No symbol) [0x00BD4C70]
+	(No symbol) [0x00BFA1DF]
+	(No symbol) [0x00C1AECC]
+	(No symbol) [0x00BF8726]
+	(No symbol) [0x00C1B224]
+	(No symbol) [0x00C2D57C]
+	(No symbol) [0x00C1ACC6]
+	(No symbol) [0x00BF6F68]
+	(No symbol) [0x00BF80CD]
+	GetHandleVerifier [0x00FA3832+2506274]
+	GetHandleVerifier [0x00FD9794+2727300]
+	GetHandleVerifier [0x00FDE36C+2746716]
+	GetHandleVerifier [0x00DD6690+617600]
+	(No symbol) [0x00CCC712]
+	(No symbol) [0x00CD1FF8]
+	(No symbol) [0x00CD20DB]
+	(No symbol) [0x00CDC63B]
+	BaseThreadInitThunk [0x75B700F9+25]
+	RtlGetAppContainerNamedObjectPath [0x779A7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x779A7B8E+238]
+
+2023-04-07 07:58:42,088 - ELMS Logger - INFO - *******Deleting user TestCase Started*******
+2023-04-07 07:58:42,089 - ELMS Logger - INFO - deleting the user started
+2023-04-07 07:58:43,768 - ELMS Logger - INFO - Navigated to the users URL page
+2023-04-07 07:58:44,556 - ELMS Logger - INFO - User Not Found for delete
+2023-04-07 07:58:44,587 - ELMS Logger - INFO - *******Adding new group TestCase Started*******
+2023-04-07 07:58:44,588 - ELMS Logger - INFO - Validating the Add new group page started
+2023-04-07 07:58:45,688 - ELMS Logger - INFO - Navigated to the group Page URL
+2023-04-07 07:58:45,689 - ELMS Logger - INFO - Validating the Add Group Page Started
+2023-04-07 07:58:48,150 - ELMS Logger - INFO - Group Created Successfully
+2023-04-07 07:58:48,151 - ELMS Logger - INFO - Validating the Add new group page Successful
+2023-04-07 07:58:48,151 - ELMS Logger - INFO - Adding new Group TestCase Passed
+2023-04-07 07:58:48,152 - ELMS Logger - INFO - *******Adding new group TestCase Ended*******
+2023-04-07 07:58:48,161 - ELMS Logger - INFO - *******Editing the group TestCase Started*******
+2023-04-07 07:58:49,940 - ELMS Logger - INFO - Validating the edit group page started
+2023-04-07 07:58:54,763 - ELMS Logger - INFO - Validating the edit group page successful
+2023-04-07 07:58:54,765 - ELMS Logger - INFO - Editing the group TestCase Passed
+2023-04-07 07:58:54,765 - ELMS Logger - INFO - *******Editing the group TestCase Ended*******
+2023-04-07 07:58:55,680 - ELMS Logger - INFO - Validating the delete group page started
+2023-04-07 07:58:55,987 - ELMS Logger - INFO - Validating the delete group page successful
+2023-04-07 07:58:57,174 - ELMS Logger - INFO - Validating the Search group page started
+2023-04-07 07:58:57,798 - ELMS Logger - INFO - Validating the Search group page successfull
+2023-04-07 07:58:57,807 - ELMS Logger - INFO - Navigating to URL
+2023-04-07 07:58:58,887 - ELMS Logger - INFO - Validating the Search for the Recovery User Page Started
+2023-04-07 07:59:01,208 - ELMS Logger - INFO - Validating the Search for the Recovery User Page Failed
+2023-04-07 07:59:01,246 - ELMS Logger - INFO - Navigating to URL
+2023-04-07 07:59:01,783 - ELMS Logger - INFO - Validating the Recovery Page Started
+2023-04-07 07:59:03,298 - ELMS Logger - INFO - No Record Found
+2023-04-07 07:59:03,337 - ELMS Logger - INFO - Navigating to the License Management URL
+2023-04-07 07:59:04,468 - ELMS Logger - INFO - Validating the Allocate License to user page started
+2023-04-07 07:59:17,367 - ELMS Logger - INFO - Navigating to the License Management URL
+2023-04-07 07:59:18,145 - ELMS Logger - INFO - Validating the Release License To User Started
+2023-04-07 07:59:22,745 - ELMS Logger - INFO - Validating the Release License To User successful
+2023-04-07 07:59:28,352 - ELMS Logger - INFO - *******Products TestCase Started*******
+2023-04-07 07:59:28,353 - ELMS Logger - INFO - Navigate to Product Page URL started
+2023-04-07 07:59:29,743 - ELMS Logger - INFO - Navigate to Product Page URL Ended
+2023-04-07 07:59:29,744 - ELMS Logger - INFO - Validating the product page started
+2023-04-07 07:59:32,555 - ELMS Logger - INFO - *******Products TestCase Ended*******
+2023-04-07 07:59:32,569 - ELMS Logger - INFO - Navigating to Activation Report Page started
+2023-04-07 07:59:33,385 - ELMS Logger - INFO - Navigating to Activation Report Page Ended
+2023-04-07 07:59:33,386 - ELMS Logger - INFO - Validating the activation report page Started
+2023-04-07 07:59:37,665 - ELMS Logger - INFO - Exporting CSV tested in the Activation page
+2023-04-07 07:59:37,676 - ELMS Logger - INFO - *******Allocation Report TestCase Started*******
+2023-04-07 07:59:37,677 - ELMS Logger - INFO - Navigate to Allocation Page URL started
+2023-04-07 07:59:38,550 - ELMS Logger - INFO - Navigate to Allocation Page URL Ended
+2023-04-07 07:59:38,551 - ELMS Logger - INFO - Validating Allocation Page Started
+2023-04-07 07:59:40,506 - ELMS Logger - INFO - No records Found in Allocation reports Page
+2023-04-07 07:59:40,549 - ELMS Logger - INFO - *******Activation History Page TestCase started*******
+2023-04-07 07:59:40,549 - ELMS Logger - INFO - Navigating to Activation History URL Page Started
+2023-04-07 07:59:41,099 - ELMS Logger - INFO - Navigating to Activation History URL Page Ended
+2023-04-07 07:59:41,100 - ELMS Logger - INFO - Validating the activation history Page Started
+2023-04-07 07:59:46,236 - ELMS Logger - INFO - Validating Activation page successful
+2023-04-07 07:59:46,237 - ELMS Logger - INFO - Activation History TestCase Passed*******
+2023-04-07 07:59:46,239 - ELMS Logger - INFO - *******Activation History Page TestCase Ended*******
+2023-04-07 07:59:46,251 - ELMS Logger - INFO - *******Checkout status Page TestCase started*******
+2023-04-07 07:59:46,254 - ELMS Logger - INFO - Navigating to the StatusReport page URL
+2023-04-07 07:59:46,921 - ELMS Logger - INFO - *******Checkout history Page TestCase started*******
+2023-04-07 07:59:46,923 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-07 07:59:47,692 - ELMS Logger - INFO - Validating the history page started
+2023-04-07 07:59:48,897 - ELMS Logger - INFO - TestCase Failed due to No record found
+2023-04-07 07:59:48,936 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Started*******
+2023-04-07 07:59:48,937 - ELMS Logger - INFO - Navigating to the 
+2023-04-07 07:59:52,431 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Ended*******
+2023-04-07 07:59:52,443 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Started*******
+2023-04-07 07:59:52,444 - ELMS Logger - INFO - Navigating to the URL
+2023-04-07 07:59:52,932 - ELMS Logger - INFO - Validating the force deactivation page started
+2023-04-07 08:00:03,073 - ELMS Logger - INFO - TestCase failed due to No Record Found Error
+2023-04-07 08:00:03,106 - ELMS Logger - INFO - *******Validating the Failed activation Page Testcase Started*******
+2023-04-07 08:00:03,106 - ELMS Logger - INFO - Navigating to the URL
+2023-04-07 08:00:03,634 - ELMS Logger - INFO - Validating the force deactivation page started
+2023-04-07 08:00:13,738 - ELMS Logger - INFO - TestCase failed due to No Record Found Error
+2023-04-07 08:00:13,783 - ELMS Logger - INFO - *******Validating the Failed activation Page Testcase Started*******
+2023-04-07 08:00:13,784 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-07 08:00:14,775 - ELMS Logger - INFO - Validating the license utilization page started
+2023-04-07 08:00:19,033 - ELMS Logger - INFO - Testcase Failed due to No Record Found Error 
+2023-04-07 08:00:19,080 - ELMS Logger - INFO - *******Validating the MyProfile Testcase Started*******
+2023-04-07 08:00:19,081 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-07 08:00:19,851 - ELMS Logger - INFO - Validating Myprofile page started
+2023-04-07 08:00:22,470 - ELMS Logger - INFO - MyProfile Testcase Passes
+2023-04-07 08:00:22,471 - ELMS Logger - INFO - *******Validating the MyProfile Testcase Ended*******
+2023-04-07 08:00:22,483 - ELMS Logger - INFO - *******Validating the Change Password Testcase Started*******
+2023-04-07 08:00:22,484 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-07 08:00:25,325 - ELMS Logger - INFO - MyProfile Testcase Passes
+2023-04-07 08:00:25,326 - ELMS Logger - INFO - *******Validating the Change Password Testcase Ended*******
+2023-04-07 08:00:25,332 - ELMS Logger - INFO - *******Signout Page TestCase Started*******
+2023-04-07 08:00:25,332 - ELMS Logger - INFO - Validating the Signout page Started
+2023-04-07 08:00:26,435 - ELMS Logger - INFO - Validating the Signout page Successful
+2023-04-07 08:00:26,435 - ELMS Logger - INFO - *******Signout Page TestCase Ended*******
