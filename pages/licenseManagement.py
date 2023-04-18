@@ -54,7 +54,7 @@ class LicenceManagement:
             j = 2
             users = self.driver.find_elements(By.XPATH, self.userXpath)
             for i in range(0, len(users), 2):
-                print(users[i].text)
+                #print(users[i].text)
                 if users[i].text == self.allocateToUser:
                     xpath = '//*[@id="ctl00_mainContent_gvLicenses"]/tbody/tr[{0}]/td[1]/a'.format(j)
                     self.driver.find_element(By.XPATH, xpath).click()
@@ -74,6 +74,9 @@ class LicenceManagement:
                             self.driver.find_element(By.XPATH, licenseCountXPath).click()
                             self.driver.find_element(By.XPATH, self.allocateBtnXPath).click()
                             break
+                        else:
+                            self.logger.info("No license available for this group")
+                            return False
                     else:
                         self.logger.info("License not available for the user")
                         return False
@@ -130,7 +133,7 @@ class LicenceManagement:
                     break
             return True
         except Exception as e:
-            self.logger.info("Exception occured in Allocation Page")
+            self.logger.info("Exception occurred in Allocation Page")
             self.logger.info(e)
             return False
 

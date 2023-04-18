@@ -310,7 +310,7 @@ def test_validate_myprofile_page():
         assert False
     logger.info("*******Validating the MyProfile Testcase Ended*******")
 
-def test_test_validate_myprofile_page():
+def test_validate_myprofile_page():
     logger.info("*******Validating the Change Password Testcase Started*******")
     changePasswordPageObj = ChangePasswordPage(driver, logger)
     changePasswordPageObj.navigate_to_url()

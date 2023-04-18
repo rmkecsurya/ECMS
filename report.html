@@ -253,7 +253,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 07-Apr-2023 at 07:55:39 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 17-Apr-2023 at 16:19:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -269,8 +269,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.11.1</td></tr></table>
     <h2>Summary</h2>
-    <p>28 tests ran in 139.40 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">16 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">12 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>27 tests ran in 165.43 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">15 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">12 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -285,18 +285,18 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_add_new_user</td>
-          <td class="col-duration">2.52</td>
+          <td class="col-duration">7.71</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_add_new_user():<br/>        logger.info(&quot;*******Add New User TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver, logger)<br/>        result = userPageObj.validate_add_new_user()<br/>        if result:<br/>            logger.info(&quot;Add new User Testcase Passed&quot;)<br/>            assert True<br/>        else:<br/>            logger.info(&quot;Add new User Testcase Failed&quot;)<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:57: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:53:28,905 - ELMS Logger - INFO - *******Add New User TestCase Started*******
-2023-04-07 07:53:28,905 - ELMS Logger - INFO - Validating Add New User Page started
-2023-04-07 07:53:29,885 - ELMS Logger - INFO - Successfully navigated to the Add new user page page
-2023-04-07 07:53:29,887 - ELMS Logger - INFO - Adding New User Creation Started
-2023-04-07 07:53:29,905 - ELMS Logger - INFO - Successfully logged into add new user page
-2023-04-07 07:53:31,423 - ELMS Logger - INFO - Entered Display is not correct
-2023-04-07 07:53:31,423 - ELMS Logger - INFO - New UserPage Validation is not successful
-2023-04-07 07:53:31,423 - ELMS Logger - INFO - Add new User Testcase Failed
+            <div class="log">def test_validate_add_new_user():<br/>        logger.info(&quot;*******Add New User TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver, logger)<br/>        result = userPageObj.validate_add_new_user()<br/>        if result:<br/>            logger.info(&quot;Add new User Testcase Passed&quot;)<br/>            assert True<br/>        else:<br/>            logger.info(&quot;Add new User Testcase Failed&quot;)<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:57: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:17:10,572 - ELMS Logger - INFO - *******Add New User TestCase Started*******
+2023-04-17 16:17:10,572 - ELMS Logger - INFO - Validating Add New User Page started
+2023-04-17 16:17:16,538 - ELMS Logger - INFO - Successfully navigated to the Add new user page page
+2023-04-17 16:17:16,539 - ELMS Logger - INFO - Adding New User Creation Started
+2023-04-17 16:17:16,556 - ELMS Logger - INFO - Successfully logged into add new user page
+2023-04-17 16:17:18,288 - ELMS Logger - INFO - Entered Display is not correct
+2023-04-17 16:17:18,288 - ELMS Logger - INFO - New UserPage Validation is not successful
+2023-04-17 16:17:18,289 - ELMS Logger - INFO - Add new User Testcase Failed
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:49 *******Add New User TestCase Started*******
 INFO     ELMS Logger:userPage.py:43 Validating Add New User Page started
 INFO     ELMS Logger:addNewUser.py:29 Successfully navigated to the Add new user page page
@@ -309,15 +309,15 @@ INFO     ELMS Logger:test_main.py:56 Add new User Testcase Failed<br/></div></td
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_search_user</td>
-          <td class="col-duration">8.21</td>
+          <td class="col-duration">17.67</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_search_user():<br/>        logger.info(&quot;*******Searching for the user TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver, logger)<br/>        result = userPageObj.validate_search_user()<br/>        if result:<br/>            logger.info(&quot;Search Testcase Passed&quot;)<br/>            assert True<br/>        else:<br/>            logger.info(&quot;Search Testcase Failed&quot;)<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:69: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:53:32,052 - ELMS Logger - INFO - *******Searching for the user TestCase Started*******
-2023-04-07 07:53:32,052 - ELMS Logger - INFO - Searching for the user Started
-2023-04-07 07:53:33,416 - ELMS Logger - INFO - Navigated to the User search page
-2023-04-07 07:53:40,270 - ELMS Logger - INFO - User Not Found
-2023-04-07 07:53:40,270 - ELMS Logger - INFO - Search Testcase Failed
+            <div class="log">def test_validate_search_user():<br/>        logger.info(&quot;*******Searching for the user TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver, logger)<br/>        result = userPageObj.validate_search_user()<br/>        if result:<br/>            logger.info(&quot;Search Testcase Passed&quot;)<br/>            assert True<br/>        else:<br/>            logger.info(&quot;Search Testcase Failed&quot;)<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:69: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:17:18,673 - ELMS Logger - INFO - *******Searching for the user TestCase Started*******
+2023-04-17 16:17:18,674 - ELMS Logger - INFO - Searching for the user Started
+2023-04-17 16:17:25,260 - ELMS Logger - INFO - Navigated to the User search page
+2023-04-17 16:17:36,343 - ELMS Logger - INFO - User Not Found
+2023-04-17 16:17:36,343 - ELMS Logger - INFO - Search Testcase Failed
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:61 *******Searching for the user TestCase Started*******
 INFO     ELMS Logger:userPage.py:67 Searching for the user Started
 INFO     ELMS Logger:userPage.py:69 Navigated to the User search page
@@ -327,100 +327,43 @@ INFO     ELMS Logger:test_main.py:68 Search Testcase Failed<br/></div></td></tr>
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_edit_user_page</td>
-          <td class="col-duration">18.18</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">def test_validate_edit_user_page():<br/>        logger.info(&quot;*******Editing user TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver, logger)<br/>        result = userPageObj.validate_edit_user_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:80: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:53:40,294 - ELMS Logger - INFO - *******Editing user TestCase Started*******
-2023-04-07 07:53:40,294 - ELMS Logger - INFO - Editing the User Page Started
-2023-04-07 07:53:41,218 - ELMS Logger - INFO - Navigated to the User URL Page
-2023-04-07 07:53:41,272 - ELMS Logger - INFO - MusersUser found and the started editing the user
-2023-04-07 07:53:58,475 - ELMS Logger - INFO - Exception occurred in validating the edit user page
-2023-04-07 07:53:58,475 - ELMS Logger - INFO - Message: invalid element state
-  (Session info: chrome=111.0.5563.147)
-Stacktrace:
-Backtrace:
-	(No symbol) [0x00D2DCE3]
-	(No symbol) [0x00CC39D1]
-	(No symbol) [0x00BD4C70]
-	(No symbol) [0x00BFA1DF]
-	(No symbol) [0x00C1AECC]
-	(No symbol) [0x00BF8726]
-	(No symbol) [0x00C1B224]
-	(No symbol) [0x00C2D57C]
-	(No symbol) [0x00C1ACC6]
-	(No symbol) [0x00BF6F68]
-	(No symbol) [0x00BF80CD]
-	GetHandleVerifier [0x00FA3832+2506274]
-	GetHandleVerifier [0x00FD9794+2727300]
-	GetHandleVerifier [0x00FDE36C+2746716]
-	GetHandleVerifier [0x00DD6690+617600]
-	(No symbol) [0x00CCC712]
-	(No symbol) [0x00CD1FF8]
-	(No symbol) [0x00CD20DB]
-	(No symbol) [0x00CDC63B]
-	BaseThreadInitThunk [0x75B700F9+25]
-	RtlGetAppContainerNamedObjectPath [0x779A7BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x779A7B8E+238]
-
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:74 *******Editing user TestCase Started*******
-INFO     ELMS Logger:userPage.py:88 Editing the User Page Started
-INFO     ELMS Logger:userPage.py:95 Navigated to the User URL Page
-INFO     ELMS Logger:userPage.py:99 MusersUser found and the started editing the user
-INFO     ELMS Logger:userPage.py:122 Exception occurred in validating the edit user page
-INFO     ELMS Logger:userPage.py:123 Message: invalid element state
-  (Session info: chrome=111.0.5563.147)
-Stacktrace:
-Backtrace:
-	(No symbol) [0x00D2DCE3]
-	(No symbol) [0x00CC39D1]
-	(No symbol) [0x00BD4C70]
-	(No symbol) [0x00BFA1DF]
-	(No symbol) [0x00C1AECC]
-	(No symbol) [0x00BF8726]
-	(No symbol) [0x00C1B224]
-	(No symbol) [0x00C2D57C]
-	(No symbol) [0x00C1ACC6]
-	(No symbol) [0x00BF6F68]
-	(No symbol) [0x00BF80CD]
-	GetHandleVerifier [0x00FA3832+2506274]
-	GetHandleVerifier [0x00FD9794+2727300]
-	GetHandleVerifier [0x00FDE36C+2746716]
-	GetHandleVerifier [0x00DD6690+617600]
-	(No symbol) [0x00CCC712]
-	(No symbol) [0x00CD1FF8]
-	(No symbol) [0x00CD20DB]
-	(No symbol) [0x00CDC63B]
-	BaseThreadInitThunk [0x75B700F9+25]
-	RtlGetAppContainerNamedObjectPath [0x779A7BBE+286]
-	RtlGetAppContainerNamedObjectPath [0x779A7B8E+238]<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">tests/test_main.py::test_validate_delete_user</td>
-          <td class="col-duration">1.73</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">def test_validate_delete_user():<br/>        logger.info(&quot;*******Deleting user TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver,logger)<br/>        result = userPageObj.validate_delete_user_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:91: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:53:58,516 - ELMS Logger - INFO - *******Deleting user TestCase Started*******
-2023-04-07 07:53:58,516 - ELMS Logger - INFO - deleting the user started
-2023-04-07 07:53:59,647 - ELMS Logger - INFO - Navigated to the users URL page
-2023-04-07 07:54:00,248 - ELMS Logger - INFO - User Not Found for delete
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:85 *******Deleting user TestCase Started*******
-INFO     ELMS Logger:userPage.py:129 deleting the user started
-INFO     ELMS Logger:userPage.py:131 Navigated to the users URL page
-INFO     ELMS Logger:userPage.py:144 User Not Found for delete<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">tests/test_main.py::test_validate_search_recoverUser</td>
           <td class="col-duration">2.50</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_search_recoverUser():<br/>        recoverUserObj = RecoverUserPage(driver,logger)<br/>        recoverUserObj.navigate_to_url()<br/>        searchRecoverUser = recoverUserObj.validate_recovery_search()<br/>        if searchRecoverUser:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:142: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:13,367 - ELMS Logger - INFO - Navigating to URL
-2023-04-07 07:54:14,400 - ELMS Logger - INFO - Validating the Search for the Recovery User Page Started
-2023-04-07 07:54:15,865 - ELMS Logger - INFO - Validating the Search for the Recovery User Page Failed
+            <div class="log">def test_validate_edit_user_page():<br/>        logger.info(&quot;*******Editing user TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver, logger)<br/>        result = userPageObj.validate_edit_user_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:80: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:17:36,366 - ELMS Logger - INFO - *******Editing user TestCase Started*******
+2023-04-17 16:17:36,367 - ELMS Logger - INFO - Editing the User Page Started
+2023-04-17 16:17:38,617 - ELMS Logger - INFO - Navigated to the User URL Page
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:74 *******Editing user TestCase Started*******
+INFO     ELMS Logger:userPage.py:88 Editing the User Page Started
+INFO     ELMS Logger:userPage.py:95 Navigated to the User URL Page<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">tests/test_main.py::test_validate_delete_user</td>
+          <td class="col-duration">2.52</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">def test_validate_delete_user():<br/>        logger.info(&quot;*******Deleting user TestCase Started*******&quot;)<br/>        userPageObj = UserPage(driver,logger)<br/>        result = userPageObj.validate_delete_user_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:91: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:17:38,876 - ELMS Logger - INFO - *******Deleting user TestCase Started*******
+2023-04-17 16:17:38,876 - ELMS Logger - INFO - deleting the user started
+2023-04-17 16:17:40,976 - ELMS Logger - INFO - Navigated to the users URL page
+2023-04-17 16:17:41,403 - ELMS Logger - INFO - User Not Found for delete
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:85 *******Deleting user TestCase Started*******
+INFO     ELMS Logger:userPage.py:130 deleting the user started
+INFO     ELMS Logger:userPage.py:132 Navigated to the users URL page
+INFO     ELMS Logger:userPage.py:145 User Not Found for delete<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">tests/test_main.py::test_validate_search_recoverUser</td>
+          <td class="col-duration">2.64</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">def test_validate_search_recoverUser():<br/>        recoverUserObj = RecoverUserPage(driver,logger)<br/>        recoverUserObj.navigate_to_url()<br/>        searchRecoverUser = recoverUserObj.validate_recovery_search()<br/>        if searchRecoverUser:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:142: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:07,962 - ELMS Logger - INFO - Navigating to URL
+2023-04-17 16:18:09,015 - ELMS Logger - INFO - Validating the Search for the Recovery User Page Started
+2023-04-17 16:18:10,606 - ELMS Logger - INFO - Validating the Search for the Recovery User Page Failed
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:recoverUsersPage.py:20 Navigating to URL
 INFO     ELMS Logger:recoverUsersPage.py:29 Validating the Search for the Recovery User Page Started
 INFO     ELMS Logger:recoverUsersPage.py:33 Validating the Search for the Recovery User Page Failed<br/></div></td></tr></tbody>
@@ -428,13 +371,13 @@ INFO     ELMS Logger:recoverUsersPage.py:33 Validating the Search for the Recove
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_recoverUser</td>
-          <td class="col-duration">1.90</td>
+          <td class="col-duration">2.14</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_recoverUser():<br/>        recoverUserObj = RecoverUserPage(driver,logger)<br/>        recoverUserObj.navigate_to_url()<br/>        searchRecoverUser = recoverUserObj.validate_recovery_page()<br/>        if searchRecoverUser:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:150: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:15,899 - ELMS Logger - INFO - Navigating to URL
-2023-04-07 07:54:16,332 - ELMS Logger - INFO - Validating the Recovery Page Started
-2023-04-07 07:54:17,805 - ELMS Logger - INFO - No Record Found
+            <div class="log">def test_validate_recoverUser():<br/>        recoverUserObj = RecoverUserPage(driver,logger)<br/>        recoverUserObj.navigate_to_url()<br/>        searchRecoverUser = recoverUserObj.validate_recovery_page()<br/>        if searchRecoverUser:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:150: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:10,641 - ELMS Logger - INFO - Navigating to URL
+2023-04-17 16:18:11,348 - ELMS Logger - INFO - Validating the Recovery Page Started
+2023-04-17 16:18:12,784 - ELMS Logger - INFO - No Record Found
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:recoverUsersPage.py:20 Navigating to URL
 INFO     ELMS Logger:recoverUsersPage.py:44 Validating the Recovery Page Started
 INFO     ELMS Logger:recoverUsersPage.py:48 No Record Found<br/></div></td></tr></tbody>
@@ -442,15 +385,15 @@ INFO     ELMS Logger:recoverUsersPage.py:48 No Record Found<br/></div></td></tr>
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_allocation_report</td>
-          <td class="col-duration">2.58</td>
+          <td class="col-duration">2.46</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_allocation_report():<br/>        logger.info(&quot;*******Allocation Report TestCase Started*******&quot;)<br/>        allocationPageObj = AllocationReportPage(driver,logger)<br/>        allocationPageObj.navigate_to_url()<br/>        result = allocationPageObj.validate_allocation_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:220: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:51,381 - ELMS Logger - INFO - *******Allocation Report TestCase Started*******
-2023-04-07 07:54:51,381 - ELMS Logger - INFO - Navigate to Allocation Page URL started
-2023-04-07 07:54:52,093 - ELMS Logger - INFO - Navigate to Allocation Page URL Ended
-2023-04-07 07:54:52,094 - ELMS Logger - INFO - Validating Allocation Page Started
-2023-04-07 07:54:53,957 - ELMS Logger - INFO - No records Found in Allocation reports Page
+            <div class="log">def test_validate_allocation_report():<br/>        logger.info(&quot;*******Allocation Report TestCase Started*******&quot;)<br/>        allocationPageObj = AllocationReportPage(driver,logger)<br/>        allocationPageObj.navigate_to_url()<br/>        result = allocationPageObj.validate_allocation_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:220: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:46,840 - ELMS Logger - INFO - *******Allocation Report TestCase Started*******
+2023-04-17 16:18:46,841 - ELMS Logger - INFO - Navigate to Allocation Page URL started
+2023-04-17 16:18:47,504 - ELMS Logger - INFO - Navigate to Allocation Page URL Ended
+2023-04-17 16:18:47,504 - ELMS Logger - INFO - Validating Allocation Page Started
+2023-04-17 16:18:49,294 - ELMS Logger - INFO - No records Found in Allocation reports Page
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:213 *******Allocation Report TestCase Started*******
 INFO     ELMS Logger:allocationPage.py:33 Navigate to Allocation Page URL started
 INFO     ELMS Logger:allocationPage.py:35 Navigate to Allocation Page URL Ended
@@ -460,27 +403,27 @@ INFO     ELMS Logger:allocationPage.py:60 No records Found in Allocation reports
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_checkout_status</td>
-          <td class="col-duration">0.49</td>
+          <td class="col-duration">2.53</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log">def test_validate_checkout_status():<br/>        logger.info(&quot;*******Checkout status Page TestCase started*******&quot;)<br/>        checkoutStatusPageObj = CheckoutStatusPage(driver,logger)<br/>        checkoutStatusPageObj.navigate_to_url()<br/>        result = checkoutStatusPageObj.validate_checkout_status_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:244: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>Not displayed
-<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:59,723 - ELMS Logger - INFO - *******Checkout status Page TestCase started*******
-2023-04-07 07:54:59,723 - ELMS Logger - INFO - Navigating to the StatusReport page URL
+<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:55,234 - ELMS Logger - INFO - *******Checkout status Page TestCase started*******
+2023-04-17 16:18:55,235 - ELMS Logger - INFO - Navigating to the StatusReport page URL
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:237 *******Checkout status Page TestCase started*******
 INFO     ELMS Logger:checkoutStatusPage.py:24 Navigating to the StatusReport page URL<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_checkout_history</td>
-          <td class="col-duration">1.56</td>
+          <td class="col-duration">6.23</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_checkout_history():<br/>        logger.info(&quot;*******Checkout history Page TestCase started*******&quot;)<br/>        checkOutHistoryPageObj = CheckOutHistoryPage(driver,logger)<br/>        checkOutHistoryPageObj.navigate_to_url()<br/>        result = checkOutHistoryPageObj.validate_checkout_history_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:255: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:00,240 - ELMS Logger - INFO - *******Checkout history Page TestCase started*******
-2023-04-07 07:55:00,240 - ELMS Logger - INFO - Navigating to the checkout history page
-2023-04-07 07:55:00,742 - ELMS Logger - INFO - Validating the history page started
-2023-04-07 07:55:01,797 - ELMS Logger - INFO - TestCase Failed due to No record found
+            <div class="log">def test_validate_checkout_history():<br/>        logger.info(&quot;*******Checkout history Page TestCase started*******&quot;)<br/>        checkOutHistoryPageObj = CheckOutHistoryPage(driver,logger)<br/>        checkOutHistoryPageObj.navigate_to_url()<br/>        result = checkOutHistoryPageObj.validate_checkout_history_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:255: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:57,803 - ELMS Logger - INFO - *******Checkout history Page TestCase started*******
+2023-04-17 16:18:57,803 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-17 16:18:59,583 - ELMS Logger - INFO - Validating the history page started
+2023-04-17 16:19:04,034 - ELMS Logger - INFO - TestCase Failed due to No record found
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:248 *******Checkout history Page TestCase started*******
 INFO     ELMS Logger:checkoutHistoryPage.py:20 Navigating to the checkout history page
 INFO     ELMS Logger:checkoutHistoryPage.py:28 Validating the history page started
@@ -489,14 +432,14 @@ INFO     ELMS Logger:checkoutHistoryPage.py:34 TestCase Failed due to No record 
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_force_deactivation_page</td>
-          <td class="col-duration">10.77</td>
+          <td class="col-duration">11.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_force_deactivation_page():<br/>        logger.info(&quot;*******Validating the Failed Request Page Testcase Started*******&quot;)<br/>        forceDeactivationPageOBJ = ForceDeactivatingPage(driver, logger)<br/>        forceDeactivationPageOBJ.navigate_to_url()<br/>        result = forceDeactivationPageOBJ.validate_force_deactivation_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:277: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:05,318 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Started*******
-2023-04-07 07:55:05,319 - ELMS Logger - INFO - Navigating to the URL
-2023-04-07 07:55:05,968 - ELMS Logger - INFO - Validating the force deactivation page started
-2023-04-07 07:55:16,085 - ELMS Logger - INFO - TestCase failed due to No Record Found Error
+            <div class="log">def test_validate_force_deactivation_page():<br/>        logger.info(&quot;*******Validating the Failed Request Page Testcase Started*******&quot;)<br/>        forceDeactivationPageOBJ = ForceDeactivatingPage(driver, logger)<br/>        forceDeactivationPageOBJ.navigate_to_url()<br/>        result = forceDeactivationPageOBJ.validate_force_deactivation_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:277: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:19:09,256 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Started*******
+2023-04-17 16:19:09,258 - ELMS Logger - INFO - Navigating to the URL
+2023-04-17 16:19:10,166 - ELMS Logger - INFO - Validating the force deactivation page started
+2023-04-17 16:19:20,288 - ELMS Logger - INFO - TestCase failed due to No Record Found Error
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:270 *******Validating the Failed Request Page Testcase Started*******
 INFO     ELMS Logger:forceDeactivatePage.py:18 Navigating to the URL
 INFO     ELMS Logger:forceDeactivatePage.py:27 Validating the force deactivation page started
@@ -505,14 +448,14 @@ INFO     ELMS Logger:forceDeactivatePage.py:39 TestCase failed due to No Record 
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_failed_activation_page</td>
-          <td class="col-duration">10.56</td>
+          <td class="col-duration">11.11</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_failed_activation_page():<br/>        logger.info(&quot;*******Validating the Failed activation Page Testcase Started*******&quot;)<br/>        forceDeactivationPageOBJ = ForceDeactivatingPage(driver, logger)<br/>        forceDeactivationPageOBJ.navigate_to_url()<br/>        result = forceDeactivationPageOBJ.validate_force_deactivation_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:288: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:16,145 - ELMS Logger - INFO - *******Validating the Failed activation Page Testcase Started*******
-2023-04-07 07:55:16,145 - ELMS Logger - INFO - Navigating to the URL
-2023-04-07 07:55:16,593 - ELMS Logger - INFO - Validating the force deactivation page started
-2023-04-07 07:55:26,710 - ELMS Logger - INFO - TestCase failed due to No Record Found Error
+            <div class="log">def test_validate_failed_activation_page():<br/>        logger.info(&quot;*******Validating the Failed activation Page Testcase Started*******&quot;)<br/>        forceDeactivationPageOBJ = ForceDeactivatingPage(driver, logger)<br/>        forceDeactivationPageOBJ.navigate_to_url()<br/>        result = forceDeactivationPageOBJ.validate_force_deactivation_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:288: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:19:20,325 - ELMS Logger - INFO - *******Validating the Failed activation Page Testcase Started*******
+2023-04-17 16:19:20,325 - ELMS Logger - INFO - Navigating to the URL
+2023-04-17 16:19:21,349 - ELMS Logger - INFO - Validating the force deactivation page started
+2023-04-17 16:19:31,441 - ELMS Logger - INFO - TestCase failed due to No Record Found Error
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:281 *******Validating the Failed activation Page Testcase Started*******
 INFO     ELMS Logger:forceDeactivatePage.py:18 Navigating to the URL
 INFO     ELMS Logger:forceDeactivatePage.py:27 Validating the force deactivation page started
@@ -521,14 +464,14 @@ INFO     ELMS Logger:forceDeactivatePage.py:39 TestCase failed due to No Record 
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_main.py::test_validate_license_utilization_page</td>
-          <td class="col-duration">4.76</td>
+          <td class="col-duration">5.05</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_validate_license_utilization_page():<br/>        logger.info(&quot;*******Validating the Failed activation Page Testcase Started*******&quot;)<br/>        licenseUtilicationPageObj = LicenseUtilizationPage(driver, logger)<br/>        licenseUtilicationPageObj.navigate_to_url()<br/>        result = licenseUtilicationPageObj.validate_license_utilization_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:299: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:26,726 - ELMS Logger - INFO - *******Validating the Failed activation Page Testcase Started*******
-2023-04-07 07:55:26,726 - ELMS Logger - INFO - Navigating to the checkout history page
-2023-04-07 07:55:27,957 - ELMS Logger - INFO - Validating the license utilization page started
-2023-04-07 07:55:31,495 - ELMS Logger - INFO - Testcase Failed due to No Record Found Error 
+            <div class="log">def test_validate_license_utilization_page():<br/>        logger.info(&quot;*******Validating the Failed activation Page Testcase Started*******&quot;)<br/>        licenseUtilicationPageObj = LicenseUtilizationPage(driver, logger)<br/>        licenseUtilicationPageObj.navigate_to_url()<br/>        result = licenseUtilicationPageObj.validate_license_utilization_page()<br/>        if result:<br/>            assert True<br/>        else:<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>tests\test_main.py:299: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:19:31,456 - ELMS Logger - INFO - *******Validating the Failed activation Page Testcase Started*******
+2023-04-17 16:19:31,457 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-17 16:19:32,556 - ELMS Logger - INFO - Validating the license utilization page started
+2023-04-17 16:19:36,511 - ELMS Logger - INFO - Testcase Failed due to No Record Found Error 
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:292 *******Validating the Failed activation Page Testcase Started*******
 INFO     ELMS Logger:licenseUtilizationPage.py:24 Navigating to the checkout history page
 INFO     ELMS Logger:licenseUtilizationPage.py:32 Validating the license utilization page started
@@ -537,15 +480,15 @@ INFO     ELMS Logger:licenseUtilizationPage.py:42 Testcase Failed due to No Reco
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_loginPage</td>
-          <td class="col-duration">5.28</td>
+          <td class="col-duration">11.25</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:53:23,617 - ELMS Logger - INFO - *******Test Login Page Testcase Started*******
-2023-04-07 07:53:25,964 - ELMS Logger - INFO - Navigated to LoginPage URL
-2023-04-07 07:53:28,859 - ELMS Logger - INFO - SuccessFully Validatd the LoginPage
-2023-04-07 07:53:28,897 - ELMS Logger - INFO - SuccessFully Signed In
-2023-04-07 07:53:28,899 - ELMS Logger - INFO - *******Test LoginPage Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:16:59,314 - ELMS Logger - INFO - *******Test Login Page Testcase Started*******
+2023-04-17 16:17:05,713 - ELMS Logger - INFO - Navigated to LoginPage URL
+2023-04-17 16:17:10,528 - ELMS Logger - INFO - SuccessFully Validatd the LoginPage
+2023-04-17 16:17:10,565 - ELMS Logger - INFO - SuccessFully Signed In
+2023-04-17 16:17:10,566 - ELMS Logger - INFO - *******Test LoginPage Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:31 *******Test Login Page Testcase Started*******
 INFO     ELMS Logger:loginPage.py:18 Navigated to LoginPage URL
 INFO     ELMS Logger:loginPage.py:28 SuccessFully Validatd the LoginPage
@@ -555,18 +498,18 @@ INFO     ELMS Logger:test_main.py:45 *******Test LoginPage Ended*******<br/></di
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_add_new_group</td>
-          <td class="col-duration">3.47</td>
+          <td class="col-duration">6.84</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:00,263 - ELMS Logger - INFO - *******Adding new group TestCase Started*******
-2023-04-07 07:54:00,263 - ELMS Logger - INFO - Validating the Add new group page started
-2023-04-07 07:54:01,237 - ELMS Logger - INFO - Navigated to the group Page URL
-2023-04-07 07:54:01,238 - ELMS Logger - INFO - Validating the Add Group Page Started
-2023-04-07 07:54:03,736 - ELMS Logger - INFO - Group Created Successfully
-2023-04-07 07:54:03,736 - ELMS Logger - INFO - Validating the Add new group page Successful
-2023-04-07 07:54:03,736 - ELMS Logger - INFO - Adding new Group TestCase Passed
-2023-04-07 07:54:03,736 - ELMS Logger - INFO - *******Adding new group TestCase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:17:41,413 - ELMS Logger - INFO - *******Adding new group TestCase Started*******
+2023-04-17 16:17:41,413 - ELMS Logger - INFO - Validating the Add new group page started
+2023-04-17 16:17:43,732 - ELMS Logger - INFO - Navigated to the group Page URL
+2023-04-17 16:17:43,733 - ELMS Logger - INFO - Validating the Add Group Page Started
+2023-04-17 16:17:48,255 - ELMS Logger - INFO - Group Created Successfully
+2023-04-17 16:17:48,256 - ELMS Logger - INFO - Validating the Add new group page Successful
+2023-04-17 16:17:48,256 - ELMS Logger - INFO - Adding new Group TestCase Passed
+2023-04-17 16:17:48,257 - ELMS Logger - INFO - *******Adding new group TestCase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:95 *******Adding new group TestCase Started*******
 INFO     ELMS Logger:groupPage.py:37 Validating the Add new group page started
 INFO     ELMS Logger:addNewGroup.py:28 Navigated to the group Page URL
@@ -579,15 +522,15 @@ INFO     ELMS Logger:test_main.py:104 *******Adding new group TestCase Ended****
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_edit_groupPage</td>
-          <td class="col-duration">6.74</td>
+          <td class="col-duration">14.54</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:03,745 - ELMS Logger - INFO - *******Editing the group TestCase Started*******
-2023-04-07 07:54:05,523 - ELMS Logger - INFO - Validating the edit group page started
-2023-04-07 07:54:10,483 - ELMS Logger - INFO - Validating the edit group page successful
-2023-04-07 07:54:10,484 - ELMS Logger - INFO - Editing the group TestCase Passed
-2023-04-07 07:54:10,485 - ELMS Logger - INFO - *******Editing the group TestCase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:17:48,261 - ELMS Logger - INFO - *******Editing the group TestCase Started*******
+2023-04-17 16:17:55,819 - ELMS Logger - INFO - Validating the edit group page started
+2023-04-17 16:18:02,801 - ELMS Logger - INFO - Validating the edit group page successful
+2023-04-17 16:18:02,801 - ELMS Logger - INFO - Editing the group TestCase Passed
+2023-04-17 16:18:02,801 - ELMS Logger - INFO - *******Editing the group TestCase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:107 *******Editing the group TestCase Started*******
 INFO     ELMS Logger:groupPage.py:54 Validating the edit group page started
 INFO     ELMS Logger:groupPage.py:72 Validating the edit group page successful
@@ -597,61 +540,60 @@ INFO     ELMS Logger:test_main.py:117 *******Editing the group TestCase Ended***
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_delete_groupPage</td>
-          <td class="col-duration">1.22</td>
+          <td class="col-duration">1.58</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:11,412 - ELMS Logger - INFO - Validating the delete group page started
-2023-04-07 07:54:11,716 - ELMS Logger - INFO - Validating the delete group page successful
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:04,147 - ELMS Logger - INFO - Validating the delete group page started
+2023-04-17 16:18:04,394 - ELMS Logger - INFO - Validating the delete group page successful
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:groupPage.py:88 Validating the delete group page started
 INFO     ELMS Logger:groupPage.py:94 Validating the delete group page successful<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_search_groupPage</td>
-          <td class="col-duration">1.63</td>
+          <td class="col-duration">3.56</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:12,740 - ELMS Logger - INFO - Validating the Search group page started
-2023-04-07 07:54:13,357 - ELMS Logger - INFO - Validating the Search group page successfull
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:07,394 - ELMS Logger - INFO - Validating the Search group page started
+2023-04-17 16:18:07,961 - ELMS Logger - INFO - Validating the Search group page successfull
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:groupPage.py:106 Validating the Search group page started
 INFO     ELMS Logger:groupPage.py:113 Validating the Search group page successfull<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_allocate_license_to_user</td>
-          <td class="col-duration">14.18</td>
+          <td class="col-duration">15.73</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>NMuser
-PDC
-<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:17,832 - ELMS Logger - INFO - Navigating to the License Management URL
-2023-04-07 07:54:18,787 - ELMS Logger - INFO - Validating the Allocate License to user page started
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:12,811 - ELMS Logger - INFO - Navigating to the License Management URL
+2023-04-17 16:18:13,614 - ELMS Logger - INFO - Validating the Allocate License to user page started
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:licenseManagement.py:44 Navigating to the License Management URL
 INFO     ELMS Logger:licenseManagement.py:53 Validating the Allocate License to user page started<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_release_license_to_user</td>
-          <td class="col-duration">4.18</td>
+          <td class="col-duration">3.81</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>NMuser
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>muser
+NMuser
 PDC
-<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:32,018 - ELMS Logger - INFO - Navigating to the License Management URL
-2023-04-07 07:54:32,821 - ELMS Logger - INFO - Validating the Release License To User Started
-2023-04-07 07:54:36,203 - ELMS Logger - INFO - Validating the Release License To User successful
+<br/> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:28,557 - ELMS Logger - INFO - Navigating to the License Management URL
+2023-04-17 16:18:29,321 - ELMS Logger - INFO - Validating the Release License To User Started
+2023-04-17 16:18:32,364 - ELMS Logger - INFO - Validating the Release License To User successful
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:licenseManagement.py:44 Navigating to the License Management URL
-INFO     ELMS Logger:licenseManagement.py:89 Validating the Release License To User Started
-INFO     ELMS Logger:licenseManagement.py:107 Validating the Release License To User successful<br/></div></td></tr></tbody>
+INFO     ELMS Logger:licenseManagement.py:92 Validating the Release License To User Started
+INFO     ELMS Logger:licenseManagement.py:110 Validating the Release License To User successful<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_allocate_license</td>
-          <td class="col-duration">1.81</td>
+          <td class="col-duration">1.83</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -660,7 +602,7 @@ INFO     ELMS Logger:licenseManagement.py:107 Validating the Release License To 
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_release_license</td>
-          <td class="col-duration">4.11</td>
+          <td class="col-duration">3.81</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -669,15 +611,15 @@ INFO     ELMS Logger:licenseManagement.py:107 Validating the Release License To 
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_products_report</td>
-          <td class="col-duration">4.45</td>
+          <td class="col-duration">3.88</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:42,153 - ELMS Logger - INFO - *******Products TestCase Started*******
-2023-04-07 07:54:42,153 - ELMS Logger - INFO - Navigate to Product Page URL started
-2023-04-07 07:54:43,523 - ELMS Logger - INFO - Navigate to Product Page URL Ended
-2023-04-07 07:54:43,524 - ELMS Logger - INFO - Validating the product page started
-2023-04-07 07:54:46,602 - ELMS Logger - INFO - *******Products TestCase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:38,029 - ELMS Logger - INFO - *******Products TestCase Started*******
+2023-04-17 16:18:38,030 - ELMS Logger - INFO - Navigate to Product Page URL started
+2023-04-17 16:18:39,064 - ELMS Logger - INFO - Navigate to Product Page URL Ended
+2023-04-17 16:18:39,065 - ELMS Logger - INFO - Validating the product page started
+2023-04-17 16:18:41,912 - ELMS Logger - INFO - *******Products TestCase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:193 *******Products TestCase Started*******
 INFO     ELMS Logger:productsPage.py:16 Navigate to Product Page URL started
 INFO     ELMS Logger:productsPage.py:18 Navigate to Product Page URL Ended
@@ -687,14 +629,14 @@ INFO     ELMS Logger:test_main.py:201 *******Products TestCase Ended*******<br/>
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_activation_report</td>
-          <td class="col-duration">4.76</td>
+          <td class="col-duration">4.91</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:46,612 - ELMS Logger - INFO - Navigating to Activation Report Page started
-2023-04-07 07:54:47,202 - ELMS Logger - INFO - Navigating to Activation Report Page Ended
-2023-04-07 07:54:47,202 - ELMS Logger - INFO - Validating the activation report page Started
-2023-04-07 07:54:51,373 - ELMS Logger - INFO - Exporting CSV tested in the Activation page
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:41,922 - ELMS Logger - INFO - Navigating to Activation Report Page started
+2023-04-17 16:18:42,586 - ELMS Logger - INFO - Navigating to Activation Report Page Ended
+2023-04-17 16:18:42,587 - ELMS Logger - INFO - Validating the activation report page Started
+2023-04-17 16:18:46,832 - ELMS Logger - INFO - Exporting CSV tested in the Activation page
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:activationReportPage.py:17 Navigating to Activation Report Page started
 INFO     ELMS Logger:activationReportPage.py:19 Navigating to Activation Report Page Ended
 INFO     ELMS Logger:activationReportPage.py:27 Validating the activation report page Started
@@ -703,17 +645,17 @@ INFO     ELMS Logger:activationReportPage.py:35 Exporting CSV tested in the Acti
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_activation_history</td>
-          <td class="col-duration">5.73</td>
+          <td class="col-duration">5.89</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:54:53,987 - ELMS Logger - INFO - *******Activation History Page TestCase started*******
-2023-04-07 07:54:53,987 - ELMS Logger - INFO - Navigating to Activation History URL Page Started
-2023-04-07 07:54:54,539 - ELMS Logger - INFO - Navigating to Activation History URL Page Ended
-2023-04-07 07:54:54,539 - ELMS Logger - INFO - Validating the activation history Page Started
-2023-04-07 07:54:59,716 - ELMS Logger - INFO - Validating Activation page successful
-2023-04-07 07:54:59,718 - ELMS Logger - INFO - Activation History TestCase Passed*******
-2023-04-07 07:54:59,719 - ELMS Logger - INFO - *******Activation History Page TestCase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:18:49,335 - ELMS Logger - INFO - *******Activation History Page TestCase started*******
+2023-04-17 16:18:49,336 - ELMS Logger - INFO - Navigating to Activation History URL Page Started
+2023-04-17 16:18:49,843 - ELMS Logger - INFO - Navigating to Activation History URL Page Ended
+2023-04-17 16:18:49,845 - ELMS Logger - INFO - Validating the activation history Page Started
+2023-04-17 16:18:55,228 - ELMS Logger - INFO - Validating Activation page successful
+2023-04-17 16:18:55,229 - ELMS Logger - INFO - Activation History TestCase Passed*******
+2023-04-17 16:18:55,229 - ELMS Logger - INFO - *******Activation History Page TestCase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:224 *******Activation History Page TestCase started*******
 INFO     ELMS Logger:activationHistoryPage.py:18 Navigating to Activation History URL Page Started
 INFO     ELMS Logger:activationHistoryPage.py:20 Navigating to Activation History URL Page Ended
@@ -725,13 +667,13 @@ INFO     ELMS Logger:test_main.py:234 *******Activation History Page TestCase En
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_failed_request_page</td>
-          <td class="col-duration">3.48</td>
+          <td class="col-duration">5.20</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:01,822 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Started*******
-2023-04-07 07:55:01,822 - ELMS Logger - INFO - Navigating to the 
-2023-04-07 07:55:05,309 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:19:04,050 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Started*******
+2023-04-17 16:19:04,050 - ELMS Logger - INFO - Navigating to the 
+2023-04-17 16:19:09,250 - ELMS Logger - INFO - *******Validating the Failed Request Page Testcase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:259 *******Validating the Failed Request Page Testcase Started*******
 INFO     ELMS Logger:failedRequestPage.py:18 Navigating to the 
 INFO     ELMS Logger:test_main.py:267 *******Validating the Failed Request Page Testcase Ended*******<br/></div></td></tr></tbody>
@@ -739,32 +681,14 @@ INFO     ELMS Logger:test_main.py:267 *******Validating the Failed Request Page 
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_myprofile_page</td>
-          <td class="col-duration">3.63</td>
+          <td class="col-duration">3.16</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:31,526 - ELMS Logger - INFO - *******Validating the MyProfile Testcase Started*******
-2023-04-07 07:55:31,526 - ELMS Logger - INFO - Navigating to the checkout history page
-2023-04-07 07:55:32,212 - ELMS Logger - INFO - Validating Myprofile page started
-2023-04-07 07:55:35,159 - ELMS Logger - INFO - MyProfile Testcase Passes
-2023-04-07 07:55:35,160 - ELMS Logger - INFO - *******Validating the MyProfile Testcase Ended*******
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:303 *******Validating the MyProfile Testcase Started*******
-INFO     ELMS Logger:myProfilePage.py:28 Navigating to the checkout history page
-INFO     ELMS Logger:myProfilePage.py:36 Validating Myprofile page started
-INFO     ELMS Logger:myProfilePage.py:49 MyProfile Testcase Passes
-INFO     ELMS Logger:test_main.py:311 *******Validating the MyProfile Testcase Ended*******<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_main.py::test_test_validate_myprofile_page</td>
-          <td class="col-duration">3.04</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:35,163 - ELMS Logger - INFO - *******Validating the Change Password Testcase Started*******
-2023-04-07 07:55:35,163 - ELMS Logger - INFO - Navigating to the checkout history page
-2023-04-07 07:55:38,201 - ELMS Logger - INFO - MyProfile Testcase Passes
-2023-04-07 07:55:38,203 - ELMS Logger - INFO - *******Validating the Change Password Testcase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:19:36,542 - ELMS Logger - INFO - *******Validating the Change Password Testcase Started*******
+2023-04-17 16:19:36,542 - ELMS Logger - INFO - Navigating to the checkout history page
+2023-04-17 16:19:39,705 - ELMS Logger - INFO - MyProfile Testcase Passes
+2023-04-17 16:19:39,705 - ELMS Logger - INFO - *******Validating the Change Password Testcase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:314 *******Validating the Change Password Testcase Started*******
 INFO     ELMS Logger:changePasswordPage.py:21 Navigating to the checkout history page
 INFO     ELMS Logger:changePasswordPage.py:34 MyProfile Testcase Passes
@@ -773,14 +697,14 @@ INFO     ELMS Logger:test_main.py:322 *******Validating the Change Password Test
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_main.py::test_validate_sign_out</td>
-          <td class="col-duration">0.99</td>
+          <td class="col-duration">0.94</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-07 07:55:38,213 - ELMS Logger - INFO - *******Signout Page TestCase Started*******
-2023-04-07 07:55:38,213 - ELMS Logger - INFO - Validating the Signout page Started
-2023-04-07 07:55:39,198 - ELMS Logger - INFO - Validating the Signout page Successful
-2023-04-07 07:55:39,198 - ELMS Logger - INFO - *******Signout Page TestCase Ended*******
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2023-04-17 16:19:39,714 - ELMS Logger - INFO - *******Signout Page TestCase Started*******
+2023-04-17 16:19:39,715 - ELMS Logger - INFO - Validating the Signout page Started
+2023-04-17 16:19:40,658 - ELMS Logger - INFO - Validating the Signout page Successful
+2023-04-17 16:19:40,659 - ELMS Logger - INFO - *******Signout Page TestCase Ended*******
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     ELMS Logger:test_main.py:325 *******Signout Page TestCase Started*******
 INFO     ELMS Logger:signOutPage.py:20 Validating the Signout page Started
 INFO     ELMS Logger:signOutPage.py:24 Validating the Signout page Successful

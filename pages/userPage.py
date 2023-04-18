@@ -104,15 +104,16 @@ class UserPage:
                     time.sleep(5)
 
                     if not self.getStaleElement(self.userEditError):
-                        self.driver.find_element(By.XPATH,self.editUserNameXPath).clear()
+                        #time.sleep(5)
+                        #self.driver.find_element(By.XPATH,self.editUserNameXPath).clear()
                         self.driver.find_element(By.XPATH, self.editUserNameXPath).send_keys(userName)
-                        # self.driver.find_element(By.XPATH,self.editAccessKeyXPath).clear()
+                        #self.driver.find_element(By.XPATH,self.editAccessKeyXPath).clear()
                         self.driver.find_element(By.XPATH, self.editAccessKeyXPath).send_keys(accessKey)
-                        # self.driver.find_element(By.XPATH,self.editFullNameXPath).clear()
+                        #self.driver.find_element(By.XPATH,self.editFullNameXPath).clear()
                         self.driver.find_element(By.XPATH, self.editFullNameXPath).send_keys(fullName)
-                        # self.driver.find_element(By.XPATH,self.editEmailXPath).clear()
+                        #self.driver.find_element(By.XPATH,self.editEmailXPath).clear()
                         self.driver.find_element(By.XPATH, self.editEmailXPath).send_keys(emailId)
-                        # self.driver.find_element(By.XPATH,self.updateUserXpath).click()
+                        self.driver.find_element(By.XPATH,self.updateUserXpath).click()
                         return True
                     else:
                         self.logger.info("Deactivate the license first")
